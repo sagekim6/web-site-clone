@@ -1,1 +1,112 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+/* Header */
+.header {
+  background-color: transparent;
+  /* border-bottom: 0.5px solid #e5e5e5; */
+  width: 100%;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.header .logo-wrapper {
+  padding-left: 20px;
+}
+
+.header .menuBtn {
+  background: none;
+  font-size: 28px;
+  color: #ffffff;
+  padding-right: 35px;
+}
+
+/* Award-badge */
+.award-badge {
+  position: absolute;
+  right: 12%;
+  top: 0;
+}
+
+.award-badge img {
+  width: 10vw;
+}
+
+/* Main content */
+.main-section #slider {
+  background-image: url(https://www.neoforet.co.kr/resources/static/common/images/main/bg1.jpg);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  z-index: -1;
+}
+/*
+https://www.neoforet.co.kr/resources/static/common/images/main/bg1.jpg
+https://www.neoforet.co.kr/resources/static/common/images/main/bg2.jpg
+https://www.neoforet.co.kr/resources/static/common/images/main/bg3.jpg
+*/
+
+.main-section .main-txt {
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-section .main-txt h1 {
+  font-size: 65px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.main-section .main-txt p {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 20px 0 50px;
+}
+
+.main-section .main-txt .story-link {
+  border: 0.3px solid rgb(255 255 255 / 25%);
+  height: 40px;
+  border-radius: 20px;
+  padding: 0 30px;
+}
+
+.main-section .main-txt .story-link span {
+  color: #ffffff;
+  line-height: 36px;
+  margin-right: 5px;
+}
+
+.main-section .main-txt .story-link .fa-arrow-right {
+  color: rgb(76, 204, 44);
+}
+
+/* slide swiper */
+.main-section .swiper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 120px);
+  color: rgb(255 255 255 / 50%);
+}
