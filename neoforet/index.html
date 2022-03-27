@@ -41,21 +41,49 @@
     <!-- Main content start -->
     <section class="main-section">
       <div id="slider">
-        <div class="main-txt">
-          <h1>Return to forest</h1>
-          <p>숲으로 돌아가는 종이, 네오포레</p>
-          <a class="story-link" href="#"
-            ><span>브랜드 스토리 자세히 보기</span
-            ><i class="fa-solid fa-arrow-right"></i
-          ></a>
-          <div class="swiper">
-            <i class="fa-solid fa-circle"></i>
-            <i class="fa-regular fa-circle"></i>
-            <i class="fa-regular fa-circle"></i>
+        <div class="slides">
+          <input type="radio" name="radio-btn" id="radio1" />
+          <input type="radio" name="radio-btn" id="radio2" />
+          <input type="radio" name="radio-btn" id="radio3" />
+          <div class="slide first">
+            <img
+              class="bgImg"
+              src="https://www.neoforet.co.kr/resources/static/common/images/main/bg1.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="bgImg"
+              src="https://www.neoforet.co.kr/resources/static/common/images/main/bg2.jpg"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img
+              class="bgImg"
+              src="https://www.neoforet.co.kr/resources/static/common/images/main/bg3.jpg"
+              alt=""
+            />
           </div>
         </div>
       </div>
+      <div class="main-txt">
+        <h1>Return to forest</h1>
+        <p>숲으로 돌아가는 종이, 네오포레</p>
+        <a class="story-link" href="#"
+          ><span>브랜드 스토리 자세히 보기</span
+          ><i class="fa-solid fa-arrow-right"></i
+        ></a>
+      </div>
+      <!-- automatie nav? -->
+      <div class="swiper">
+        <label class="bullet" for="radio1"></label>
+        <label class="bullet" for="radio2"></label>
+        <label class="bullet" for="radio3"></label>
+      </div>
     </section>
+    <!-- second content start -->
     <section class="second-container">
       <h4>네오포레의 다양한 제품을 만나보세요.</h4>
       <p>무림은 최고의 기술로 생활의 가치를 더하고 있습니다.</p>
@@ -150,5 +178,6 @@
       src="https://kit.fontawesome.com/1f96df6da4.js"
       crossorigin="anonymous"
     ></script>
+    <script src="main.js"></script>
   </body>
 </html>
