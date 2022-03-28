@@ -40,35 +40,8 @@
     </div>
     <!-- Main content start -->
     <section class="main-section">
-      <div id="slider">
-        <div class="slides">
-          <input type="radio" name="radio-btn" id="radio1" />
-          <input type="radio" name="radio-btn" id="radio2" />
-          <input type="radio" name="radio-btn" id="radio3" />
-          <div class="slide first">
-            <img
-              class="bgImg"
-              src="https://www.neoforet.co.kr/resources/static/common/images/main/bg1.jpg"
-              alt=""
-            />
-          </div>
-          <div class="slide">
-            <img
-              class="bgImg"
-              src="https://www.neoforet.co.kr/resources/static/common/images/main/bg2.jpg"
-              alt=""
-            />
-          </div>
-          <div class="slide">
-            <img
-              class="bgImg"
-              src="https://www.neoforet.co.kr/resources/static/common/images/main/bg3.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-      </div>
-      <div class="main-txt">
+      <div id="slider"></div>
+      <div class="main-contents">
         <h1>Return to forest</h1>
         <p>숲으로 돌아가는 종이, 네오포레</p>
         <a class="story-link" href="#"
@@ -76,18 +49,19 @@
           ><i class="fa-solid fa-arrow-right"></i
         ></a>
       </div>
-      <!-- automatie nav? -->
       <div class="swiper">
-        <label class="bullet" for="radio1"></label>
-        <label class="bullet" for="radio2"></label>
-        <label class="bullet" for="radio3"></label>
+        <div class="bullet dot-one"></div>
+        <div class="bullet dot-two"></div>
+        <div class="bullet dot-three"></div>
       </div>
     </section>
     <!-- second content start -->
     <section class="second-container">
-      <h4>네오포레의 다양한 제품을 만나보세요.</h4>
-      <p>무림은 최고의 기술로 생활의 가치를 더하고 있습니다.</p>
-      <div>
+      <div class="second-contents">
+        <h4>네오포레의 다양한 제품을 만나보세요.</h4>
+        <p>무림은 최고의 기술로 생활의 가치를 더하고 있습니다.</p>
+      </div>
+      <div class="more-product">
         <ul>
           <li>
             <a href="#"
@@ -105,15 +79,31 @@
               ><i class="fa-solid fa-arrow-right"></i
             ></a>
           </li>
+          <li>
+            <a href="#"
+              ><span>네오포레 FLEX</span><i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span>펄프 몰드 </span><i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </li>
+          <li>
+            <a href="#"
+              ><span>바이오플라스틱</span><i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </li>
         </ul>
-        <div>
+        <div class="swipt-bullet">
           <i class="fa-solid fa-angle-left"></i>
-          <span><i class="fa-solid fa-circle"></i></span>
-          <span><i class="fa-solid fa-circle"></i></span>
+          <span> &#8226;</span>
+          <span> &#8226;</span>
           <i class="fa-solid fa-angle-right"></i>
         </div>
       </div>
     </section>
+    <!-- Neo News start -->
     <section>
       <h3>네오포레의 다양한 소식을 만나보세요.</h3>
       <p>무림은 최고의 기술로 생활에 가치를 더하고 있습니다.</p>
@@ -154,24 +144,26 @@
     </section>
     <!-- Footer -->
     <footer>
-      <button type="button"><i class="fa-solid fa-circle-arrow-up"></i></button>
-      <div>
-        <img
-          src="	https://www.neoforet.co.kr/resources/static/common/images/include/main_footer_logo.png"
-          alt="neoforet-logo"
-        />
-        <span>서울특별시 강남구 강남대로 656(신사동)</span>
-        <span>TEL : 02. 3485. 1500 </span>
-        <span>FAX : 02. 3443. 2997</span>
+      <button class="goUpBtn" type="button" onclick="moveToTop()">
+        &uarr;
+      </button>
+      <div class="footer-contents">
+        <div>
+          <img
+            class="footer-logo"
+            src="	https://www.neoforet.co.kr/resources/static/common/images/include/main_footer_logo.png"
+            alt="neoforet-logo"
+          />
+          <span class="address">서울특별시 강남구 강남대로 656(신사동)</span>
+          <span class="tel">TEL:02.3485.1500 </span>
+          <span class="fax">FAX:02.3443.2997</span>
+        </div>
+        <div class="links">
+          <a class="privacy-consent" href="#">개인정보 처리방침</a>
+          <a class="goToMoorim" href="#"> 무림페이지로 이동&#8599;</a>
+        </div>
+        <address>COPYRIGHT©2021MOORIMPAPER.ALLRIGHTRESERVED</address>
       </div>
-      <div class="links">
-        <a href="#">개인정보 처리방침</a>
-        <a href="#">
-          <span>무림페이지로 이동</span
-          ><i class="fa-solid fa-arrow-turn-up"></i>
-        </a>
-      </div>
-      <address>COPYRIGHT© 2021 MOORIM PAPER. ALL RIGHT RESERVED</address>
     </footer>
     <!-- script -->
     <script
