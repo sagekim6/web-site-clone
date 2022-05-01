@@ -189,20 +189,13 @@ footer .footer-contents .links {
 footer .footer-contents .privacy-consent {
   color: #cacaca;
   border: #cacaca 2px solid;
-  border-radius: 50px;
-  text-align: center;
   margin: 30px 124px 0 124px;
-  padding-top: 5px;
-  height: 30px;
 }
 
 footer .footer-contents .goToMoorim {
   background-color: #cacaca;
   color: #fff;
-  border-radius: 50px;
-  text-align: center;
   margin: 10px 124px 0 124px;
-  padding-top: 5px;
   height: 30px;
 }
 

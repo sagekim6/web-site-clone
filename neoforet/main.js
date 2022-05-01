@@ -1,8 +1,6 @@
 const silder = document.querySelector("#slider");
 const bullets = document.querySelectorAll(".bullet");
 const swiper = document.querySelector(".swiper");
-const goUpBtn = document.querySelector(".goUpBtn");
-const header = document.querySelector("header");
 
 const backgroundImages = [
   "url('https://www.neoforet.co.kr/resources/static/common/images/main/bg1.jpg')",
