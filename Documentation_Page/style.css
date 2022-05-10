@@ -72,6 +72,30 @@ code{
   margin: 10px;
 }
 
+.goUp{
+  width: 45px;
+  height: 45px;
+  border: var(--dark-color) 1px solid;
+  border-radius: 50%;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.goUp a{
+  color: var(--blue-color);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.goUp:hover{
+  background-color: #e5e5e5;
+  border: #9f9f9f 1px solid;
+}
+
 @media (max-width: 815px){
   #navbar{
     overflow-y: scroll;
