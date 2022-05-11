@@ -71,3 +71,15 @@ function makeHeaderVisible() {
   }
 }
 window.addEventListener("scroll", makeHeaderVisible);
+
+// seconde content의 slide 동작 함수
+const firstSlide = document.querySelector(".first-slide");
+const lastSlide = document.querySelector(".last-slide");
+
+function goToFirstSlide() {
+  firstSlide.scrollIntoView({ behavior: "smooth" });
+}
+
+function goToNextSlide() {
+  lastSlide.scrollIntoView({ behavior: "smooth" });
+}

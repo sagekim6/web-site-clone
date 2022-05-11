@@ -24,15 +24,24 @@
   <body>
     <!-- Header -->
     <header class="header">
-        <div class="logo-wrapper">
-          <a href="#">
-            <img class="white-logo" src="https://www.neoforet.co.kr/resources/static/common/images/include/main_logo.png" alt="white-logo"/>
-            <img class="color-logo" src="https://www.neoforet.co.kr/resources/static/common/images/include/main_logo_color.png" alt="color-logo" style="display: none;">
+      <div class="logo-wrapper">
+        <a href="#">
+          <img
+            class="white-logo"
+            src="https://www.neoforet.co.kr/resources/static/common/images/include/main_logo.png"
+            alt="white-logo"
+          />
+          <img
+            class="color-logo"
+            src="https://www.neoforet.co.kr/resources/static/common/images/include/main_logo_color.png"
+            alt="color-logo"
+            style="display: none"
+          />
         </a>
-        </div>
-        <button class="menuBtn" type="button">
-          <i class="fa-solid fa-bars"></i>
-        </button>
+      </div>
+      <button class="menuBtn" type="button">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </header>
     <!-- Award Badge -->
     <div class="award-badge">
@@ -63,40 +72,83 @@
     <!-- second content start -->
     <section class="second-container">
       <div class="second-contents">
-        <h4>네오포레의<br>다양한 제품을 만나보세요.</h4>
-        <p>무림은 최고의 기술로 생활의 가치를<br>더하고 있습니다.</p>
+        <h4>네오포레의<br />다양한 제품을 만나보세요.</h4>
+        <p>무림은 최고의 기술로 생활의 가치를<br />더하고 있습니다.</p>
       </div>
-        <div class="swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide"><a href="#"
+      <div class="slider">
+        <div class="slide-box">
+          <div class="slide first-slide">
+            <img
+              src="https://www.neoforet.co.kr/resources/static/common/images/main/slide_img_1.png"
+              alt="cup-img"
+            />
+            <a class="moreInfo" href="#"
               ><span>네오포레 CUP</span><i class="fa-solid fa-arrow-right"></i
-            ></a></div>
-            <div class="swiper-slide">
-              <a href="#"
+            ></a>
+          </div>
+          <div class="slide">
+            <img
+              src="https://www.neoforet.co.kr/resources/static/common/images/main/slide_img_2.png"
+              alt="straw-img"
+            />
+            <a class="moreInfo" href="#"
               ><span>네오포레 STRAW</span><i class="fa-solid fa-arrow-right"></i
             ></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"
+          </div>
+          <div class="slide">
+            <img
+              src="https://www.neoforet.co.kr/resources/static/common/images/main/slide_img_3.png"
+              alt="buffer-img"
+            />
+            <a class="moreInfo" href="#"
               ><span>네오포레 완충재</span
               ><i class="fa-solid fa-arrow-right"></i
             ></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"
+          </div>
+        </div>
+        <div class="slide-box">
+          <div class="slide">
+            <img
+              src="https://www.neoforet.co.kr/resources/static/common/images/main/slide_img_4.png"
+              alt="flex-img"
+            />
+            <a class="moreInfo" href="#"
               ><span>네오포레 FLEX</span><i class="fa-solid fa-arrow-right"></i
             ></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"
+          </div>
+          <div class="slide">
+            <img
+              src="https://www.neoforet.co.kr/resources/static/common/images/main/slide_img_5.png"
+              alt="pulpMold-img"
+            />
+            <a class="moreInfo" href="#"
               ><span>펄프 몰드 </span><i class="fa-solid fa-arrow-right"></i
             ></a>
-            </div>
-            <div class="swiper-slide">
-              <a href="#"
+          </div>
+          <div class="slide last-slide">
+            <img
+              src="https://www.neoforet.co.kr/resources/static/common/images/main/slide_img_6.png"
+              alt="bio-img"
+            />
+            <a class="moreInfo" href="#"
               ><span>바이오플라스틱</span><i class="fa-solid fa-arrow-right"></i
             ></a>
-            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slideBtns">
+        <button class="arrow slideBtn" onclick="goToFirstSlide()">
+          &#10092;
+        </button>
+        <button class="bullet slideBtn" onclick="goToFirstSlide()">
+          &bull;
+        </button>
+        <button class="bullet slideBtn" onclick="goToNextSlide()">
+          &bull;
+        </button>
+        <button class="arrow slideBtn" onclick="goToNextSlide()">
+          &#10093;
+        </button>
       </div>
     </section>
     <!-- Neo News start -->

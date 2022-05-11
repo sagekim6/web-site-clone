@@ -2,6 +2,10 @@ body {
   font-family: "Noto Sans KR", sans-serif;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -233,6 +237,69 @@ footer .footer-contents address {
 }
 
 /* Second section */
+.second-container{
+  position: relative;
+}
+
+.slider{
+  display: grid;
+  grid-template-columns: 100% 100%;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+}
+
+.slider::-webkit-scrollbar{
+  display:none;
+}
+
+.slide-box{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.slide img{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slideBtns{
+  background-color: #ffffff;
+  width: 130px;
+  padding: 16px 0 16px 0;
+  position: absolute;
+  bottom: 26px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slideBtn{
+  background: none;
+  font-weight: bold;
+  text-align: center;
+}
+
+.moreInfo{
+  border: 1px solid #222222;
+  border-radius: 20px;
+  padding: 8px 15px 8px 15px;
+  position: relative;
+  left: 55%;
+  bottom: 13%;
+}
+
+.moreInfo .fa-arrow-right {
+  color: rgb(76, 204, 44);
+  padding-left: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.second-container .second-contents{
+  position: absolute;
+}
+
 .second-container .second-contents h4 {
   font-size: 32px;
   font-weight: 700;
